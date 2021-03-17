@@ -1,6 +1,6 @@
 import { useState} from "react";
 
-function useToggle(initialVal=false) {
+function useToggleState(initialVal=false) {
     // call useState hook
     const [state, setState] = useState(initialVal);
     const toggle = () => {
@@ -10,4 +10,4 @@ function useToggle(initialVal=false) {
     return[state, toggle];
 }
 
-export default useToggle;
+export default useToggleState;
