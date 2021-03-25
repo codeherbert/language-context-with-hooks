@@ -40,7 +40,7 @@ function Navbar(props) {
                         <span role="img" aria-label="flag" style= {{marginTop: "7px"}}>{flag}</span>
                     </IconButton>
                     <Typography className={classes.title} varient="h6" color="inherit">
-                        App Title
+                        { isDarkMode ? "Dark" : "Light" }
                     </Typography>
                     <Switch onChange={toggleTheme} />
                     <div className={classes.grow} />
