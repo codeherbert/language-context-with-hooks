@@ -78,14 +78,5 @@ function Form(props) {
         </main>
     )
 }
-// class Form extends Component {
-//     static contextType = LanguageContext;
-//     render() {
-        
-//         return (
-            
-//         )
-//     }
-// }
 
 export default withStyles(styles)(Form);
